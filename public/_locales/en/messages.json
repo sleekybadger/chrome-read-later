@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Read Later",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Save tabs for later reading",
+    "description": "The description of the application"
+  }
+}
