@@ -1,4 +1,4 @@
-exports = {};
+var exports = {};
 
 exports.sample = function(ar) {
 	return ar[Math.floor(Math.random() * ar.length)];

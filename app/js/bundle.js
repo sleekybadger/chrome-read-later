@@ -397,7 +397,7 @@ AppDispatcher.register(function(payload) {
 module.exports = TabsListStore;
 
 },{"../constants/ReadLaterConstants":6,"../dispatcher/AppDispatcher":7,"../services/ChromeService":8,"../utils/utils.js":10,"events":11}],10:[function(require,module,exports){
-exports = {};
+var exports = {};
 
 exports.sample = function(ar) {
 	return ar[Math.floor(Math.random() * ar.length)];
