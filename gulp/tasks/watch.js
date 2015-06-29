@@ -3,4 +3,5 @@ var gulp = require('gulp'),
 
 gulp.task('watch', ['watchify'], function() {
 	gulp.watch(config.styles, ['styles']);
+	gulp.watch(config.ejs, ['ejs']);
 });

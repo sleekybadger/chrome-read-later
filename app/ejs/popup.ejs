@@ -10,8 +10,10 @@
 	<body>
 		<section id="read-later"></section>
 		
-		
+		<% if (isBuild) { %>
 			<script src="js/app.min.js"></script>
-		
+		<% } else { %>
+			<script src="js/bundle.js"></script>
+		<% } %>
 	</body>
 </html>

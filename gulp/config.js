@@ -9,22 +9,30 @@ module.exports = {
 		name: 'styles.min.css'
 	},
 	scripts: {
-		debug: false,
+		debug: true,
 		bundles: [
 			{
 				entries: src + '/js/app.js',
-				dest: src + '/js/',
+				dest: dest + '/js/',
 				name: 'bundle.js',
 				transform: ['reactify']
 			}
 		]
 	},
 	watch: {
-		styles: src + '/less/**/*.less'
+		styles: src + '/less/**/*.less',
+		ejs: src + '/ejs/**/*.ejs'
 	},
 	uglify: {
 		src: src + '/js/bundle.js',
 		dest: dest + '/js/',
 		name: 'app.min.js',
+	},
+	ejs: {
+		src: src + '/ejs/**/*.ejs',
+		dest: dest
+	},
+	clean: {
+		src: dest + '/js/bundle.js'
 	}
 };
