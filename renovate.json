@@ -1,0 +1,6 @@
+{
+  "prHourlyLimit": 0,
+  "extends": [
+    "config:base"
+  ]
+}
