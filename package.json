@@ -4,7 +4,7 @@
   "dependencies": {
     "flux": "^2.0.3",
     "q": "^1.4.1",
-    "react": "^0.13.3"
+    "react": "^0.14.0"
   },
   "devDependencies": {
     "browserify": "^10.2.4",
