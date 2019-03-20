@@ -2,7 +2,7 @@
   "name": "read-later",
   "version": "0.0.0",
   "dependencies": {
-    "flux": "^2.0.3",
+    "flux": "^3.0.0",
     "q": "^1.4.1",
     "react": "^0.13.3"
   },
